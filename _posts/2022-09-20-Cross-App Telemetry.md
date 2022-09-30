@@ -11,7 +11,7 @@ Once there was an requirement to implement custom payment handling system that g
  
 Idea behind this is that a Web app would track every meaningful user action to Application Insights as the user was performing it, for example - selecting product categories. In addition to every meaningful action performed by the app itself, such as data query or storing would and could be tracked. Whenever actions of different app, for example Azure Functions, are required to finish process, that given app also can track every action to same Application insights using same unique identifier as Web app.
 
-![Telemetry workflow](/assets/img/posts/telemetry/telemetry.png/ "Telemetry workflow")
+![Telemetry workflow](/assets/img/posts/telemetry/telemetry.png "Telemetry workflow")
 
  Esentially every desired action could be tracked. Such tracking can be performed using custom event metrics.
  More info on custom event metrics: <https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics>
@@ -63,7 +63,7 @@ new Dictionary<string, string>
 
 In order to view Custom Events in Azure Portal, we would need to navigate to given Azure Application Insights instance and select **Transaction search**. There we can toggle desired Event types and select "Custom Events". Additional filtering can be applied on top of that, were we can search for our custom **operationId**. Results will display all telemetry data with that Id in order they were logged, no matter from which App.
 
-![Azure portal transacton search](/assets/img/posts/telemetry/telemetry-portal.PNG/ "Azure portal transacton search")
+![Azure portal transacton search](/assets/img/posts/telemetry/telemetry-portal.PNG "Azure portal transacton search")
 
 Happy logging :)
 
