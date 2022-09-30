@@ -5,7 +5,7 @@ categories: [Architecture, Application Insights]
 tags: [appinsights,telemetry,architecture]     # TAG names should always be lowercase
 ---
 
-## Idea behind.. ##
+## Idea behind... ##
 
 Once there was an requirement to implement custom payment handling system that gets triggered from Web UI. Whenever all data was collected from the website, something had to be called to process calling payment API endpoints, such as authorization, product loading, etc. Since at that time Azure was and currently is the go-to cloud provider for my project, choice of Azure infrastructure for such a task was made. But then question arose how could we log such data flow in detailed manner, so we could tie actions made in Web UI together with actions later done in for example Azure durable functions and view them in sequential order without heavy load. One neat way that came in mind is Azure Application Insights.
  
