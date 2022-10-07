@@ -6,7 +6,7 @@ order: 4
 Hei!
 My name is **Aleksandrs Maslovs**.
 
-All and all I have more than 10 years experience in software development and software architecture. Mainly focusing on .NET C# and Azure Cloud.
+All and all I have more than 10 years experience in software development and software architecture. Mainly focusing on .NET C# and Azure Cloud. Extensive knowledge and experiance of implementing solutions that use SIRI-CEN and NeTEx-CEN standards.
 
 In my career I have experience in training junior developers, leading small developer teams, working directly with customer and taking ownership of solutions that I'm passionate about.
 
