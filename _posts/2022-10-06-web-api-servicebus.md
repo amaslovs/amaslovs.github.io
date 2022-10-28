@@ -1,7 +1,7 @@
 ---
 title: Web API with ServiceBus and caching
 date: 2022-10-06 06:00:00 +/-0000
-categories: [Architecture, Web API]
+categories: [Architecture]
 tags: [webapi,netcore,servicebus]     # TAG names should always be lowercase
 ---
 

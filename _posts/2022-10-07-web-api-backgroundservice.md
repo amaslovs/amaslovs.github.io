@@ -1,7 +1,7 @@
 ---
 title: Creating Web API background service
 date: 2022-10-06 06:00:00 +/-0000
-categories: [Web API, BackgroundService]
+categories: [Web API]
 tags: [webapi,netcore,backgroundservice]     # TAG names should always be lowercase
 ---
 

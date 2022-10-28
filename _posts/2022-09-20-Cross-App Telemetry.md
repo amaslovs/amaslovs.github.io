@@ -1,7 +1,7 @@
 ---
 title: Cross-App Application Insights
 date: 2022-09-20 20:00:00 +/-0000
-categories: [Architecture, Application Insights]
+categories: [Architecture]
 tags: [appinsights,telemetry,architecture]     # TAG names should always be lowercase
 ---
 
