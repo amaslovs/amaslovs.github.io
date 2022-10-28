@@ -1,6 +1,6 @@
 ---
 title: Defining Web API result
-date: 2022-10-07 06:00:00 +/-0000
+date: 2022-10-27 06:00:00 +/-0000
 categories: [Web API]
 tags: [webapi,netcore,mvcoptions]     # TAG names should always be lowercase
 ---
