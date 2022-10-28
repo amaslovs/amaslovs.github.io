@@ -13,7 +13,7 @@ Since .NET Core 2.0 we can use ``IHostedService`` interface to easily implement 
  
 To create a background service in Web API from scratch, the first step is to create the desired background service class and inherit from the ``BackgroundService`` base class and implement the necessary ``ExecuteAsync`` method.
 
-```
+```csharp
 public class ExampleService : BackgroundService
 {
     protected override Task ExecuteAsync(CancellationToken stoppingToken)
@@ -27,7 +27,7 @@ Here within ``ExecuteAsync`` we can write all required logic for the new backgro
  
 In order for it to register to ``Host`` as a background task, we have to register it through ``AddHostedService`` method in Startup class.
 
-```
+```csharp
 var builder = WebApplication.CreateBuilder(args);
 void ConfigureServices()
 {

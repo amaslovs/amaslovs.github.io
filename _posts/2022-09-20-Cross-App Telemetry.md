@@ -26,7 +26,7 @@ Operation ID can be set up by accessing `TelemetryClient` context.
 For example such method can be created for ease of use across multiple apps:
 
 
-```
+```csharp
 public class AppInsightsTelemetryService : IAppInsightsTelemetryService
 {
     public void TrackEvent(string eventName, string operationId, Dictionary<string, string> properties = null)
@@ -42,7 +42,7 @@ public class AppInsightsTelemetryService : IAppInsightsTelemetryService
 
 Then to call this method, we can specify `eventName` that would show up in Azure portal transaction search, as well as any properties we wish to pass along. **Operation Id** in this case has to be unique across the entire solution but same in each call you wish to track together with previous.
 
-```
+```csharp
 _telemetry.TrackEvent("Add Product",
 cart.Data.Id.ToString(),
 new Dictionary<string, string>
